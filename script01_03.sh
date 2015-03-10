@@ -5,7 +5,7 @@ y="pluto"
 a="abdin"
 b="jack"
 
-if [ $1 -e /c/Documents\ and\ Settings\/Studenti//Desktop/New ]
+if [ $1 -e /c/Documents\ and\ Settings\/Studenti/Desktop/New ]
 then
 	i=0
 	for x in "$new"
@@ -18,7 +18,7 @@ else
 fi
 
 
-if [ $2 -e /c/Documents\ and\ Settings\/Studenti//Desktop/New ]
+if [ $2 -e /c/Documents\ and\ Settings\/Studenti/Desktop/New ]
 then
 	i=0
 	for y in "$new"
@@ -31,7 +31,7 @@ else
 fi
 
 
-if [ $3 -e /c/Documents\ and\ Settings\/Studenti//Desktop/New ]
+if [ $3 -e /c/Documents\ and\ Settings\/Studenti/Desktop/New ]
 then
 	i=0
 	for a in "$new"
@@ -44,7 +44,7 @@ else
 fi
 
 
-if [ $4 -e /c/Documents\ and\ Settings\/Studenti//Desktop/New ]
+if [ $4 -e /c/Documents\ and\ Settings\/Studenti/Desktop/New ]
 then
 	i=0
 	for b in "$new"
