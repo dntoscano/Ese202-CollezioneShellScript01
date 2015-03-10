@@ -2,7 +2,7 @@
 
 echo "Il nome del file eseguibile e' \"new\""
 
-if [ $1 -e /c/Documents\ and\ Settings\/Studenti//Desktop/New ]
+if [ $1 -e /c/Documents\ and\ Settings\/Studenti/Desktop/New ]
 then
 	i=0
 	for arg in "$new"
