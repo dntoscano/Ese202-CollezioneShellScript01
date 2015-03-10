@@ -1,57 +1,17 @@
 #!/bin/bash
 
-x="pippo"
-y="pluto"
-a="abdin"
-b="jack"
-
-if [ $1 -e /c/Documents\ and\ Settings\/Studenti/Desktop/New ]
+x="0"
+for x in $@
+do
+	if [ -eq $n ]
+	then
+		x=$(( $x+1 ))
+	fi
+done
+-------------------------------------
+if [ $x -gt 0 ]
 then
-	i=0
-	for x in "$new"
-	do
-		i=$(( $i+1 ))
-		echo "Almeno un file trovato."
-	done
-else
-	echo "Nessun file trovato."
-fi
-
-
-if [ $2 -e /c/Documents\ and\ Settings\/Studenti/Desktop/New ]
-then
-	i=0
-	for y in "$new"
-	do
-		i=$(( $i+1 ))
-		echo "Almeno un file trovato."
-	done
-else
-	echo "Nessun file trovato."
-fi
-
-
-if [ $3 -e /c/Documents\ and\ Settings\/Studenti/Desktop/New ]
-then
-	i=0
-	for a in "$new"
-	do
-		i=$(( $i+1 ))
-		echo "Almeno un file trovato."
-	done
-else
-	echo "Nessun file trovato."
-fi
-
-
-if [ $4 -e /c/Documents\ and\ Settings\/Studenti/Desktop/New ]
-then
-	i=0
-	for b in "$new"
-	do
-		i=$(( $i+1 ))
-		echo "Almeno un file trovato."
-	done
+	echo "Almeno un file trovato."
 else
 	echo "Nessun file trovato."
 fi
